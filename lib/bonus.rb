@@ -22,8 +22,8 @@ def bonus
 
   #code your solution here:
     new_code = "dead"
-    epic_tragedy[:montague][:hero] = new_code
-    epic_tragedy[:capulet][:heroine] = new_code
+    epic_tragedy[:montague][:hero][:status] = new_code
+    epic_tragedy[:capulet][:heroine][:status] = new_code
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
